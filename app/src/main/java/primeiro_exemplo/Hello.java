@@ -12,24 +12,27 @@ public class Hello {
 
         Pessoa p1 = new Pessoa();
 
-        p1.nome = "Diego";
-        p1.idade = 16;
+        //p1.nome = "Diego";
+        p1.setNome("Diego");
+        //p1.idade = 16;
+        p1.setIdade(16);
 
-        System.out.println(p1.nome + " : " + p1.idade);
+        //System.out.println(p1.nome + " : " + p1.idade);
+        System.out.println(p1.getNome() + " : " + p1.getIdade());
 
-        Pessoa p2 = p1;
+        //Pessoa p2 = p1;
 
-        p2.nome = "Munhoz";
+        //p2.nome = "Munhoz";
         
-        System.out.println(p2.nome);
-        System.out.println(p1.nome);
+        //System.out.println(p2.nome);
+        //System.out.println(p1.nome);
 
-        Pessoa p3 = new Pessoa();
-        p3.nome = "Clodoaldo";
-        p3.idade = 30;
+        //Pessoa p3 = new Pessoa();
+        //p3.nome = "Clodoaldo";
+        //p3.idade = 30;
 
-        System.out.println(p1.verificarMarioriedade());
-        System.out.println(p3.verificarMarioriedade());
+        //System.out.println(p1.verificarMarioriedade());
+        //System.out.println(p3.verificarMarioriedade());
 
     }
 }
